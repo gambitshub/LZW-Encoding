@@ -14,7 +14,6 @@
 #include <sstream>
 // #include <bits/stdc++.h>
 
-
 using namespace std;
 
 vector<int> encoder(string src_str){
@@ -193,7 +192,7 @@ string dec2bin16(vector<int> encoded){
 int main(){
     // Input from File
     ifstream ins;
-    ins.open("EE6743_grail_testfile.txt");
+    ins.open("grail_testfile.txt");
     stringstream stream;
     stream << ins.rdbuf();
     string src_str = stream.str();
