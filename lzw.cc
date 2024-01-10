@@ -4,7 +4,7 @@
  * C++ code reads in .txt file, generates LZW Encoding,
  * 
  * Instructions:
- * 1. Include "EE6743_grail_testfile.txt" and the makefile in
+ * 1. Include "grail_testfile.txt" and the makefile in
  *     current directory.
  * 2. Make.
  * 3. ./lzw to view output.
